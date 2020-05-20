@@ -33,7 +33,8 @@ a {
 
 .birdLogo {
 
-	/* Add properties below */
+	width: 30px;
+    margin-left: 40px;
 
 }
 
@@ -42,6 +43,7 @@ a {
 	width: 100%;
 
 	/* Add properties below */
+    height: 300px;
 	
 }
 
@@ -58,6 +60,7 @@ a {
 	padding: 3px;
 	
 	/* Add properties below */
+    margin-left: 390px;
 	
 }
 
@@ -70,7 +73,7 @@ a {
 	/* Add a proper display property: We want the stats to have 
 	a height, but also appear side-by-side */
 
-	/*display: ;*/
+    display: inline-block;
 		
 }
 
@@ -78,6 +81,7 @@ a {
 	display: block;
 	
 	/* Add properties below */
+    font-size: 150%;
 
 }
 
@@ -89,6 +93,13 @@ a {
 	padding: 10px;
 	
 	/* Add properties below */
+    margin-top: 20px;
+    margin-left: 50px;
+    min-height: 300px;
+    width: 300px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 93%;
 
 }
 
@@ -96,15 +107,18 @@ a {
 /*** Timeline styles below ***/
 
 #timeline {
-	border-radius: 10px;
-	background-color: white;
-
-	/* Add properties below */
-
+    border-radius: 10px;
+    background-color: white;
+    /* Add properties below */
+    position: relative;
+    margin-left: 390px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
 }
 
 .timelineHeader {
-	border-bottom: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .timelineHeader ul {
@@ -112,36 +126,42 @@ a {
 }
 
 .timelineHeader ul li {
-	padding: 10px;
-	margin-right: 20px;
-	font-size: 150%;
-	font-weight: bold;
-
-	/* Add properties below */
-	
-
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 150%;
+    font-weight: bold;
+    /* Add properties below */
+    list-style: none;
+    text-align: center;
+    display: inline-block;
 }
 
 
 /*** Tweet styles below ***/
 
 .tweet {
-	background-color: white;
-	
-	/* Add properties below */
-
+    background-color: white;
+    /* Add properties below */
+    display: table;
+    border-bottom: 1px solid grey;
+    width: 600px;
+    overflow: auto;
+    min-height: 100px;
 }
 
 /* For the div that holds the tweet icon */
 .tweetIconContainer {
-
-	/* Add properties below */
-
+    /* Add properties below */
+    position: absolute;
+    padding: 10px;
 }
 
 .tweetIcon {
 
 	/* Add properties below */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 
 }
 
@@ -149,12 +169,16 @@ a {
 	margin: 0px;
 
 	/* Add properties below */
+    position: relative;
+    margin-left: 80px;
 
 }
 
 /* For pictures inside tweets (like the Robarts pic) */
 .tweetContentPicture {
 	/* Add properties below */
+    max-width: 500px;
+    margin-bottom: 10px;
 	
 }
 
