@@ -171,22 +171,28 @@ a {
 	/* Add properties below */
     position: relative;
     margin-left: 80px;
+    max-width: 500px;
 
 }
 
 /* For pictures inside tweets (like the Robarts pic) */
 .tweetContentPicture {
-	/* Add properties below */
+    /* Add properties below */
     max-width: 500px;
     margin-bottom: 10px;
-	
+    padding-right: 20px;
 }
 
 
 /* Style the big profile picture circle here. */
 #bigProfilePicCircle {
-	/* Add properties below */
-
+    /* Add properties below */
+    position: absolute;
+    border-radius: 50%;
+    top: 230px;
+    left: 100px;
+    width: 200px;
+    border: 3px solid white;
 }
 
 
